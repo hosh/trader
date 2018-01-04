@@ -1,0 +1,41 @@
+*  IDEAS
+** Source: Blackbird - https://github.com/butor/blackbird/blob/master/README.md
+- Trading concurrently on long and short positions based on spread between exchanges
+- Position entered at a large spread between a pair of exchanges
+- Position exists when pair of exchanges shrinks
+- Exchanges:
+  - Kraken
+  - Bitfinex
+  - OKCoin
+  - BitStamp
+  - Gemini
+  - EXMO
+  - QuadrigaCX
+  - Polonlex
+  - GDAX
+  - BTC-e
+  - itBit
+  - CEX.IO
+- Bitfinex and Kraken seems to be the most well-respected exchanges
+** Bitfinex
+*** API Docs: https://docs.bitfinex.com/docs
+*** https://github.com/cyberpunk-ventures/bitfinex_ex
+- Last maintained: Nov 26, 2016
+- HTTPoison
+- Two public methods, might as well write my own
+- Org https://github.com/cyberpunk-ventures seems to have some interesting things
+** Kraken
+*** API Docs: https://www.kraken.com/help/api
+*** https://github.com/x-ji/kraken_api/blob/master/lib/kraken_api.ex
+- Most recently maintained (last commit: Oct 2017)
+- Uses HTTPoison
+- Written by a student? Code is kinda messy but straight-forward
+*** https://github.com/1st8/exkraken
+- Recently-maintained (last commit: Aug 2017)
+- Also uses HTTPoison
+- Does not look as complete as kraken_api
+*** https://github.com/parubets/kraken_elixir
+- Recently-maintained (last commit: Jun 2017)
+- Also uses HTTPoison
+- Seems to have the most number of endpoints implemented
+*** Maybe write my own, somewhere between kraken_api and karaken_elixir
