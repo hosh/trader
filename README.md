@@ -1,5 +1,13 @@
 # Trader
 
+This is based on [Blackbird](https://github.com/butor/blackbird).
+
+This is a personal project that is more of an excuse to code with Elixir. This
+is not meant as production-ready code. The author (Ho-Sheng Hsiao) warrants
+nothing. Use this code at your own risk. You may want to run Blackbird instead.
+
+## Developer Notes
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
