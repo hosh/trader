@@ -39,3 +39,9 @@
 - Also uses HTTPoison
 - Seems to have the most number of endpoints implemented
 *** Maybe write my own, somewhere between kraken_api and karaken_elixir
+** Bittrex- https://bittrex.com/
+*** Not on Blackbird, but worth a shot?
+*** https://github.com/straw-hat-team/bittrex
+*  Interesting Stuff
+** https://github.com/kipcole9/attempt/
+** https://github.com/c-rack/quantum-elixir - Cron Job for Elixir
