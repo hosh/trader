@@ -24,6 +24,14 @@
 - HTTPoison
 - Two public methods, might as well write my own
 - Org https://github.com/cyberpunk-ventures seems to have some interesting things
+*** Bitfinex has a websocket interface
+*** Websocket clients for Elixir
+**** https://github.com/meh/elixir-socket
+**** https://github.com/Azolo/websockex
+WebSockex was conceived after trying other libraries and realizing that I needed something
+tested, that actually implemented the spec, provided information about the connection,
+and could fit into a supervision tree. There was nothing that really fit into all those
+categories, so WebSockex was created.
 ** Kraken
 *** API Docs: https://www.kraken.com/help/api
 *** https://github.com/x-ji/kraken_api/blob/master/lib/kraken_api.ex
