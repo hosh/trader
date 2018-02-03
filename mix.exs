@@ -40,7 +40,9 @@ defmodule Trader.Mixfile do
       {:phoenix_html, "~> 2.10"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"},
+      {:ex_kraken_api, path: "../hex/ex-kraken-api" },
+      {:ex_bitfinex_api, path: "../hex/ex-bitfinex-api" }
     ]
   end
 
