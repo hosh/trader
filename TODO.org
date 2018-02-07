@@ -17,6 +17,9 @@
   - itBit
   - CEX.IO
 - Bitfinex and Kraken seems to be the most well-respected exchanges
+** cex.io
+- Recommended by @edenis elixir-lang slack
+*** Websocket API: https://cex.io/websocket-api
 ** Bitfinex
 *** API Docs: https://docs.bitfinex.com/docs
 *** https://github.com/cyberpunk-ventures/bitfinex_ex
@@ -47,6 +50,10 @@ categories, so WebSockex was created.
 - Also uses HTTPoison
 - Seems to have the most number of endpoints implemented
 *** Maybe write my own, somewhere between kraken_api and karaken_elixir
+** GDAX - potential target from Blackbird
+- This one also has a Websocket API. Maybe should seriously think about
+  using a subscriber model to do this.
+*** Websocket API https://docs.gdax.com/#websocket-feed
 ** Bittrex- https://bittrex.com/
 *** Not on Blackbird, but worth a shot?
 *** https://github.com/straw-hat-team/bittrex
